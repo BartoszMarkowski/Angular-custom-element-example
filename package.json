@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --output-hashing=none && npm run package",
-    "package": "cat dist/AngularCustomElementExample/{runtime,polyfills,scripts,main}.js | gzip > dist/AngularCustomElementExample/example.js.gz",
-    "serve": "http-server dist/AngularCustomElementExample/ --gzip"
+    "package": "cat dist/AngularCustomElementExample/{runtime,polyfills,scripts,main}.js > dist/AngularCustomElementExample/example.js",
+    "serve": "http-server example/ --gzip"
   },
   "private": true,
   "dependencies": {
