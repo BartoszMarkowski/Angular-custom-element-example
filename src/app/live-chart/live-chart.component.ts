@@ -4,7 +4,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-live-chart',
   templateUrl: './live-chart.component.html',
   styleUrls: ['./live-chart.component.scss'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.None
 })
 export class LiveChartComponent implements OnInit{
   ngOnInit(): void {
